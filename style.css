@@ -162,3 +162,30 @@ html {
   font-size: 6rem;
   color: var(--g1);
 }
+
+form input,
+textarea {
+  width: 40rem;
+  border: none;
+  outline: none;
+  background-color: var(--g3);
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  color: var(--g12);
+  padding: 1rem 2rem;
+}
+
+textarea {
+  resize: vertical;
+  max-height: 10rem;
+  min-height: 5rem;
+}
+
+::placeholder {
+  color: var(--g10);
+}
+
+.form-btn {
+  background-color: var(--g1);
+}
+
