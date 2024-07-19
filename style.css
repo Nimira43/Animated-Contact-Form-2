@@ -1,1 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fredericka+the+Great&family=Noto+Sans+Mono:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
+:root {
+  --g1: #111; /* stand, handle, contact-us submit button */
+  --g2: #222; 
+  --g3: #333; /* phone unit and  contact form background */
+  --g4: #444;
+  --g5: #555;
+  --g6: #666;
+  --g7: #777;
+  --g8: #888; /* handle circles dialler dots*/
+  --g9: #999;
+  --g10: #aaa; 
+  --g11: #bbb; /* container */
+  --g12: #ccc; /* dialler  and text */
+  --g13: #ddd; /* background */
+  --g14: #eee;
+}
