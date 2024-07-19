@@ -50,6 +50,10 @@ html {
   border-radius: 60rem 2rem;
 }
 
+.content > div {
+  flex: 1;
+}
+
 .telephone {
   width: 30rem;
   height: 20rem;
@@ -142,4 +146,19 @@ html {
   background-color: var(--g1);
   bottom: -5.5rem;
   border-radius: 5rem;
+}
+
+.form-wrapper {
+  flex-direction: column;
+  gap: 5rem 0;
+}
+
+.form-wrapper form {
+  flex-direction: column;
+  gap: 1.5rem 0;
+}
+
+.form-heading {
+  font-size: 6rem;
+  color: var(--g1);
 }
