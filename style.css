@@ -58,6 +58,10 @@ html {
   position: relative;
 }
 
+.telephone > div {
+  position: absolute;
+}
+
 .telephone::before,
 .telephone::after {
   content: '';
@@ -75,4 +79,43 @@ html {
 
 .telephone::after {
   right: 4rem;
+}
+
+.handset {
+  width: 40rem;
+  height: 5rem;
+  background-color: var(--g1);
+  top: -7.2rem;
+  left: -5rem;
+  border-radius: 5rem;
+}
+
+.handset::before,
+.handset::after {
+  content: '';
+  position: absolute;
+  width: 6rem;
+  height: 4rem;
+  background-color: var(--g8);
+  bottom: -4.3rem;
+  border-radius: 5rem;
+}
+
+.handset::before {
+  left: 0;
+}
+
+.handset::after {
+  right: 0;
+}
+
+.dial {
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--g12);
+  top: 5rem;
+  left: 10rem;
+  border-radius: 5rem;
+  border: 2.5rem dotted var(--g8); 
+  z-index: 1;
 }
