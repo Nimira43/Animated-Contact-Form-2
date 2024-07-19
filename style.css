@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fredericka+the+Great&family=Noto+Sans+Mono:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+html {
+  font-size: 62.5%;
+}
 
 :root {
   --g1: #111; /* stand, handle, contact-us submit button */
@@ -16,4 +26,53 @@
   --g12: #ccc; /* dialler  and text */
   --g13: #ddd; /* background */
   --g14: #eee;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--g13);
+  display: grid;
+  place-items: center;
+  padding: 5rem 20rem;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: var(--g11);
+  border-radius: 60rem 2rem;
+}
+
+.telephone {
+  width: 30rem;
+  height: 20rem;
+  background-color: var(--g3);
+  border-radius: 100rem 100rem 20rem 20rem;
+  position: relative;
+}
+
+.telephone::before,
+.telephone::after {
+  content: '';
+  width: 7rem;
+  height: 22rem;
+  background-color: var(--g3);
+  position: absolute;
+  bottom: 0;
+  border-radius: 5rem 5rem 0 0;
+}
+
+.telephone::before {
+  left: 4rem;
+}
+
+.telephone::after {
+  right: 4rem;
 }
