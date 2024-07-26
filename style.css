@@ -187,6 +187,7 @@ textarea {
 
 .form-btn {
   background-color: var(--g1);
+  cursor: pointer;
 }
 
 @media (max-width: 1650px) {
